@@ -1,10 +1,6 @@
-import { useState } from "react";
-import Countdown from "../components/Countdown";
 import Timer from "../components/Timer";
 
 export default function Home() {
-  const [seconds, setSeconds] = useState(120);
-
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <video
